@@ -1,0 +1,25 @@
+﻿<metadata>
+    <!--
+    This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+    <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+    
+    This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+    <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+    -->
+    
+    <!-- Use ACPCore for .NET plugin name -->
+    <attr path="/api/package[@name='com.adobe.marketing.mobile']/class[@name='MobileCore']" name="managedName">ACPCore</attr>
+    <!-- Resolve build errors and warnings-->
+    <attr path="/api/package[@name='com.adobe.marketing.mobile.services.ui']/class[@name='Alert']" name="managedName">ACPAlert</attr>
+    <attr path="/api/package[@name='com.adobe.marketing.mobile.services.ui']/interface[@name='PresentationEventListener']/method[@name='onDismiss']" name="argsType">PresentationEventListenerDismissEventArgs</attr>
+    <attr path="/api/package[@name='com.adobe.marketing.mobile.services.ui']/interface[@name='PresentationEventListener']/method[@name='onHide']" name="argsType">PresentationEventListenerHideEventArgs</attr>
+    <attr path="/api/package[@name='com.adobe.marketing.mobile.services.ui']/interface[@name='PresentationEventListener']/method[@name='onShow']" name="argsType">PresentationEventListenerShowEventArgs</attr>
+    <attr path="/api/package[@name='com.adobe.marketing.mobile.services.ui.message']/class[@name='InAppMessageSettings.MessageGesture.Companion']" name="visibility">public</attr>
+    <attr path="/api/package[@name='com.adobe.marketing.mobile.services.ui.message']/class[@name='InAppMessageSettings.MessageGesture.Companion']" name="managedName">MessageGestureCompanion</attr>
+    <attr path="/api/package[@name='com.adobe.marketing.mobile']/class[@name='InitOptions.Companion']" name="visibility">public</attr>
+    <attr path="/api/package[@name='com.adobe.marketing.mobile']/class[@name='InitOptions.Companion']" name="managedName">InitOptionsCompanion</attr>
+    <attr path="/api/package[@name='com.adobe.marketing.mobile.rulesengine']/class[@name='RulesEngine']" name="managedName">ACPRulesEngine</attr>
+    <attr path="/api/package[@name='com.adobe.marketing.mobile.services.ui']/class[@name='FloatingButton']/field[@name='eventHandler']" name="managedName">EventHandlerField</attr>
+    <attr path="/api/package[@name='com.adobe.marketing.mobile.services.ui']/class[@name='InAppMessage']/field[@name='eventHandler']" name="managedName">EventHandlerField</attr>
+
+</metadata>

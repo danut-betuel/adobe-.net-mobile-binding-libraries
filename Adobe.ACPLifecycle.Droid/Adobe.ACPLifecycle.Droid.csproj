@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net8.0-android</TargetFramework>
+        <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Version>3.0.2</Version>
+        <PackageProjectUrl>https://github.com/danut-betuel/adobe-.net-mobile-binding-libraries</PackageProjectUrl>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <Title>Adobe.ACPLifecycle.Droid</Title>
+        <Authors>Betuel</Authors>
+        <Description>Adobe Experience Platform - Lifecycle plugin for .NET Android.</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="../LICENSE" Pack="true" PackagePath=""/>
+    </ItemGroup>
+    
+    <ItemGroup>
+        <AndroidLibrary Include="Libs/lifecycle-3.0.2.aar" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Adobe.ACPCore.Droid" Version="3.4.0" />
+    </ItemGroup>
+</Project>

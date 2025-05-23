@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adobe.ACPCore.Droid", "Adobe.ACPCore.Droid\Adobe.ACPCore.Droid.csproj", "{E3CDBBF7-1027-464E-B23E-5D3E3054E0F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adobe.ACPIdentity.Droid", "Adobe.ACPIdentity.Droid\Adobe.ACPIdentity.Droid.csproj", "{EEFDE11F-4C42-44C5-AC10-C4C25D5718CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adobe.ACPLifecycle.Droid", "Adobe.ACPLifecycle.Droid\Adobe.ACPLifecycle.Droid.csproj", "{04732E9E-86CB-4EF0-8983-8AE168825875}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adobe.ACPAnalytics.Droid", "Adobe.ACPAnalytics.Droid\Adobe.ACPAnalytics.Droid.csproj", "{99BABCB2-149F-4EB1-8317-25C3A9B24B9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adobe.AEPAssurance.Droid", "Adobe.AEPAssurance.Droid\Adobe.AEPAssurance.Droid.csproj", "{9D12E2BB-AC53-4E77-8738-ECBFF35EF3DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adobe.ACPTarget.Droid", "Adobe.ACPTarget.Droid\Adobe.ACPTarget.Droid.csproj", "{E704E2FC-9148-4583-933B-E30B365A0D61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3CDBBF7-1027-464E-B23E-5D3E3054E0F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3CDBBF7-1027-464E-B23E-5D3E3054E0F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3CDBBF7-1027-464E-B23E-5D3E3054E0F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3CDBBF7-1027-464E-B23E-5D3E3054E0F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEFDE11F-4C42-44C5-AC10-C4C25D5718CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEFDE11F-4C42-44C5-AC10-C4C25D5718CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEFDE11F-4C42-44C5-AC10-C4C25D5718CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEFDE11F-4C42-44C5-AC10-C4C25D5718CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04732E9E-86CB-4EF0-8983-8AE168825875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04732E9E-86CB-4EF0-8983-8AE168825875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04732E9E-86CB-4EF0-8983-8AE168825875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04732E9E-86CB-4EF0-8983-8AE168825875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99BABCB2-149F-4EB1-8317-25C3A9B24B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99BABCB2-149F-4EB1-8317-25C3A9B24B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99BABCB2-149F-4EB1-8317-25C3A9B24B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99BABCB2-149F-4EB1-8317-25C3A9B24B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D12E2BB-AC53-4E77-8738-ECBFF35EF3DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D12E2BB-AC53-4E77-8738-ECBFF35EF3DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D12E2BB-AC53-4E77-8738-ECBFF35EF3DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D12E2BB-AC53-4E77-8738-ECBFF35EF3DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E704E2FC-9148-4583-933B-E30B365A0D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E704E2FC-9148-4583-933B-E30B365A0D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E704E2FC-9148-4583-933B-E30B365A0D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E704E2FC-9148-4583-933B-E30B365A0D61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>26</SupportedOSPlatformVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Version>3.4.0</Version>
+    <PackageProjectUrl>https://github.com/danut-betuel/adobe-.net-mobile-binding-libraries</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Title>Adobe.ACPCore.Droid</Title>
+    <Authors>Betuel</Authors>
+    <Description>Adobe Experience Platform - Core plugin for .NET Android.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../LICENSE" Pack="true" PackagePath=""/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <AndroidLibrary Include="Libs/core-3.4.0.aar" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.AndroidX.Compose.Animation" Version="1.7.8.1" />
+  </ItemGroup>
+
+</Project>
