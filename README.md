@@ -42,7 +42,8 @@ ACPCore.RegisterExtensions(
         ACPIdentity.Extension,
         ACPLifecycle.Extension,
         ACPTarget.Extension
-    }
+    },
+    null
 );
 
 ```

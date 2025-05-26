@@ -4,12 +4,13 @@
         <SupportedOSPlatformVersion>26</SupportedOSPlatformVersion>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
-        <Version>3.0.2</Version>
+        <Version>3.0.2.1</Version>
         <PackageProjectUrl>https://github.com/danut-betuel/adobe-.net-mobile-binding-libraries</PackageProjectUrl>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <Authors>Betuel</Authors>
         <Title>Adobe.ACPAnalytics.Droid</Title>
         <Description>Adobe Experience Platform - Analytics plugin for .NET Android.</Description>
+        <PackageReleaseNotes>- updated Adobe.ACPCore.Droid dependency</PackageReleaseNotes>
     </PropertyGroup>
 
     <ItemGroup>
@@ -21,6 +22,6 @@
     </ItemGroup>
     
     <ItemGroup>
-        <PackageReference Include="Adobe.ACPCore.Droid" Version="3.4.0" />
+        <PackageReference Include="Adobe.ACPCore.Droid" Version="3.4.0.1" />
     </ItemGroup>
 </Project>

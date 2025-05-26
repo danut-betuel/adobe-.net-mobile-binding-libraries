@@ -4,12 +4,13 @@
         <SupportedOSPlatformVersion>26</SupportedOSPlatformVersion>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
-        <Version>3.0.6</Version>
+        <Version>3.0.6.1</Version>
         <PackageProjectUrl>https://github.com/danut-betuel/adobe-.net-mobile-binding-libraries</PackageProjectUrl>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <Title>Adobe.AEPAssurance.Droid</Title>
         <Authors>Betuel</Authors>
         <Description>Adobe Experience Platform - Assurance plugin for .NET Android.</Description>
+        <PackageReleaseNotes>- added needed dependencies</PackageReleaseNotes>
     </PropertyGroup>
 
     <ItemGroup>
@@ -21,6 +22,14 @@
     </ItemGroup>
     
     <ItemGroup>
-      <PackageReference Include="Adobe.ACPCore.Droid" Version="3.4.0" />
+      <PackageReference Include="Adobe.ACPCore.Droid" Version="3.4.0.1" />
+      <PackageReference Include="Xamarin.AndroidX.Activity.Compose" Version="1.10.1.1" />
+      <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.7.0.6" />
+      <PackageReference Include="Xamarin.AndroidX.Compose.Material" Version="1.7.8.1" />
+      <PackageReference Include="Xamarin.AndroidX.Compose.Runtime" Version="1.7.8.1" />
+      <PackageReference Include="Xamarin.AndroidX.Lifecycle.ViewModel.Compose.Android" Version="2.8.7.3" />
+      <PackageReference Include="Xamarin.AndroidX.Navigation.Compose" Version="2.8.9.1" />
+      <PackageReference Include="Xamarin.Kotlin.StdLib.Jdk8" Version="2.0.21.3" />
     </ItemGroup>
+    
 </Project>
